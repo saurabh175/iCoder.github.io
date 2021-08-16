@@ -1,0 +1,20 @@
+html
+  head
+    title saurabh Dance academy
+    block scripts
+      script(src='/jquery.js')
+    block style 
+  body 
+    nav#navbar
+        ul
+            #logo 
+              img(src="../static/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href='/contact') Contact Us]
+    block content
+       
+    footer#footer
+        p copyright @2021-2022 www.saurabhdanceacademy.com! all rights reserve 
