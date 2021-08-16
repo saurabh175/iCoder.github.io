@@ -56,7 +56,7 @@ img{
     height: 423px;
     color: white;
    
-    background: center/cover no-repeat url(../static/img1.jpg);
+    background: center/cover no-repeat url(./img1.jpg);
 }
 #missionSection{
     display: block;
@@ -136,7 +136,7 @@ input,textarea{
 
 .myform{
     display: flex;
-    background: no-repeat center/cover url(/static/contact.jpg);
+    background: no-repeat center/cover url('./contact.jpg');
     flex-direction: column;
     /* flex: 50%; */
     justify-content: center;
